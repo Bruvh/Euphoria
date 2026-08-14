@@ -1,7 +1,15 @@
 function Header() {
   return (
-    <header>
-      <h1>My React App</h1>
+    <header className="header">
+      <a className="logo" href="/">
+        EUPHORIA
+      </a>
+
+      <nav className="nav">
+        <a href="#explore">Explore</a>
+        <a href="#about">About</a>
+        <a href="#support">Support</a>
+      </nav>
     </header>
   );
 }
